@@ -182,6 +182,14 @@ padding: 20px 50px 20px 50px;
 /* About Us Section */
 
 
+.about-us {
+    background: url(assets/BG\ image.png);
+   
+}
+
+
+
+
 .about-us  img{
     width: 700px;
 }
@@ -190,8 +198,10 @@ padding: 20px 50px 20px 50px;
     margin-top: 50px;
     display: flex;
     gap: 100px;
+  
      
 }
+
 
 
 .about-us__content {
@@ -201,8 +211,129 @@ padding: 20px 50px 20px 50px;
 }
 
 .about-us__desc {
-    display: flex;
-    flex-direction: column;
-    gap: 45px;
+    padding-bottom: 100px;
 }
 
+
+.how-we-work {
+    padding-top: 60px;
+    padding-bottom: 60px;
+    background: url(assets/bg\ 2.png);
+}
+
+.how-we-work p {
+    color: white;
+}
+
+
+.how-we-work small {
+    color: white;
+}
+
+.how-we-work__content {
+    display: flex;
+    flex-direction: column;
+     align-items: center;
+      text-align: center;
+      gap: 10px;
+}
+
+
+.how-we-work__desc {
+    display: flex;
+    flex-direction: column;
+     align-items: center;
+}
+
+
+.how-we-work-cards {
+    display: flex;
+    gap: 30px;
+    margin-top: 50px;
+}
+
+.card {
+    background-color: var(--background-color);
+    align-items: center;
+    text-align: center;
+    padding: 50px;
+
+}
+
+.card p {
+    color: #000;
+}
+
+
+.card h3 {
+    color: var(--primary-color);
+    margin-bottom: 20px;
+    font-size: 60px;
+}
+ 
+/* End of how we work */
+
+
+
+.roof-type {
+      padding-top: 100px;
+    padding-bottom: 100px;
+    background: url(assets/IMG_5169.jpeg);
+}
+
+
+
+
+.roof-type p {
+    color: white;
+}
+
+
+.roof-type small {
+    color: white;
+}
+
+
+
+
+.roof-type__content {
+    display: flex;
+    flex-direction: column;
+     align-items: center;
+      text-align: center;
+      gap: 10px;
+}
+
+
+
+.roof-type {
+    display: flex;
+    flex-direction: column;
+     align-items: center;
+}
+
+
+.roof-type-cards {
+    display: flex;
+    gap: 30px;
+    margin-top: 50px;
+}
+
+.card-2 {
+    background-color: var(--background-color);
+    align-items: center;
+    text-align: center;
+    padding: 50px;
+
+}
+
+.card-2 p {
+    color: #000;
+}
+
+
+.card-2 h3 {
+    color: var(--primary-color);
+    margin-bottom: 20px;
+    font-size: 20px;
+}
